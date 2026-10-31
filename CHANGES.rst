@@ -3,6 +3,9 @@
 Version 3.2.0
 -------------
 
+-   Fix multipart parser appending a stray byte when data arrives split across
+    the closing boundary. :issue:`3285`
+
 -   Drop support for Python 3.9 and 3.10. :pr:`3098`
 -   Remove previous deprecated code: :pr:`3099`
 
